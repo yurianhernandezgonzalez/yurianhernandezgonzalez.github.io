@@ -1,0 +1,169 @@
+<html>
+	<head>
+	<title>Enlaces en HTML</title>
+        
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        
+	<style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bowlby+One&family=Candal&family=Capriola&family=Coiny&family=Days+One&family=Fugaz+One&family=Mooli&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&family=Shrikhand&display=swap');
+        
+		*{
+			padding: 0;
+			margin: 0;	
+		}
+		header, nav, main, footer{
+			width: 100%;
+			padding: 30px;
+			background-color: firebrick;
+			color: bisque;
+			margin-left: auto;
+			margin-right: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+		}
+		
+		header{
+			height: auto;
+            font-size: 40px;
+		}
+		
+		nav{
+			height: auto;
+			background-color: darksalmon;
+            font-family: "Capriola", serif;
+		}
+		
+		nav ul{
+			text-align: center;
+		}
+        
+		nav ul li{
+			list-style-image: none;
+			width: auto;
+			height: auto;
+            margin-bottom: 10px;
+			background-color: brown;
+			display: inline-block;
+			padding: 20px;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+		main {
+			height:  auto;
+			background-color: antiquewhite;
+		}
+        
+		section{
+			width: 70%;
+			height: 200px;
+			background-color: darksalmon;
+			margin-bottom: 30px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 30px;	
+            overflow-y: auto;
+            font-family: "Capriola", serif;
+		}
+        
+		header,footer{
+			text-align: center;
+		}
+        
+        a{
+            text-decoration: none
+        }
+		
+		a:link{
+			color: deeppink;
+			/*texto decoracion:none*/
+		}
+	
+		a:active{	
+			color: fuchsia;
+		}
+		/*Estado hover modifica cuando se pasa el maouse encima del teto*/
+		
+		a:visited{
+			color: red;
+		}
+		
+		a:hover{
+			color: cadetblue;
+		}
+		 h1, h2, h3, h4, h5, h6{
+            font-family: "Bowlby One", serif;
+            margin-bottom: 20px;
+            color: bisque;
+		
+		}
+		p{
+			color: beige;
+		}
+		/*Este codigo modifica los estados de en laces  para el menu*/
+		
+		nav ul li a:link, nav ul li a:visited{
+			color: bisque;
+			text-decoration: none;
+		}
+		
+		nav ul li:hover{
+			background-color: bisque;
+		}
+		
+		nav ul li a:hover{
+			color: firebrick;
+		}
+		</style>
+	</head>
+	
+	
+	<body>
+		<header>
+			<h1 class="animate__animated animate__bounceinleft animate__delay-1s">Enlaces en HTML</h1>
+		</header>
+        
+		<nav>
+			<ul>
+                <li><a href="index.html">Index</a></li>
+				<li><a href="formatos%20.html">Formatos</a></li>
+				<li><a href="listas.html">Listas</a></li>
+				<li><a href="enlaces.html">Enlaces</a></li>	
+                <li><a href="imagenes.html">Imagenes</a></li>
+				<li><a href="tablas.html">Tablas</a></li>
+				<li><a href="audio.html">Audios</a></li>
+				<li><a href="video.html">Videos</a></li>
+				<li><a href="formularios.html">Formularios</a></li>
+			</ul>
+		</nav>
+        
+		<main>
+			<section class="animate__animated animate__bounceInUp animate__ slower">
+				<h2>Enlaces externos</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor, sem at ultricies gravida, tellus eros eleifend enim, id condimentum risus nulla vitae turpis.Nam vestibulum massa non ultrices imperdiet. Vestibulum vulputate iaculis leo, ut consequat felis consectetur sed. Quisque dui libero, sollicitudin et diam ut, iaculis suscipit est. Nunc et velit blandit, vulputate metus eget, lacinia risus. Etiam semper fermentum elit. <a href="http://www.buap.mx">Benemerita Autónoma de Puebla</a> Nulla eget maximus ipsum, eget pellentesque dui. Quisque fringilla enim a nisl gravida lobortis. Vivamus placerat commodo sem vehicula iaculis.<a href="http://www.udg.mx" target="_blank">Unversidad de Guadalajara</a> Nulla convallis purus at nisi faucibus, et dignissim enim mattis. Proin nec ante elit. Fusce quis.</p>
+			</section>
+			
+			<section class="animate__animated animate__bounceInUp animate__ slower">
+			<h3>Enlace Externo</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ipsum sed tortor egestas, non aliquam est posuere. Aliquam in tristique arcu. <a href="formatos%20.html">Práctica de Formatos de Texto en HTML</a>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis sit amet urna dui. Fusce et rhoncus enim. Duis fermentum lacus eu <a href="listas.html">Prácticas de Listas en HTML</a>libero dignissim pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at libero malesuada ante cursus cursus eget mollis mi. Donec placerat accumsan metus, ut vulputate magna laoreet quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.</p>
+			</section>
+			
+            <section class="animate__animated animate__bounceInUp animate__slower">	
+            <h4>Enlace a Archivo</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tellus consectetur sem sagittis tincidunt at quis libero. <a href="file:///C:/Users/1086308238/Downloads/14-YHG/practicas/14%20Hernandez%20Gonzalez%20Yurian-%20Formato%20de%20Texto.pdf" target="_blank">Código de Práctica de Formatos de Texto HTML en PDF</a> Integer mattis dictum sapien, non commodo eros convallis in. Ut in placerat risus. Pellentesque neque nisi, cursus eget ex in, semper malesuada nunc. Aenean id mollis odio, non tincidunt lorem. Aliquam ac enim et risus luctus ultrices sed eget orci. Duis pretium, lectus ac pharetra tristique, risus nulla scelerisque nibh, quis fermentum enim dui ac tellus. Nunc laoreet risus a sem porttitor.</p>
+			</section>
+            
+            <section class="animate__animated animate__bounceInUp animate__slower">
+			<h5>Enlace con Descarga de Archivo</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget tellus consectetur sem sagittis tincidunt at quis libero. Integer mattis dictum sapien, non commodo eros convallis in. Ut in placerat risus. <a  href="file:///C:/Users/1086308238/Downloads/14-YHG/practicas/14%20Hernandez%20Gonzalez%20Yurian-Formatos%20Textos.png" download="Vista_Navegador_Practica_Formatos_HTML">Vista de Navegador Práctica de Formatos HTML</a> Pellentesque neque nisi, cursus eget ex in, semper malesuada nunc. Aenean id mollis odio, non tincidunt lorem. Aliquam ac enim et risus luctus ultrices <a href="http://www.ebay.com">EBAY</a> sed eget orci. Duis pretium, lectus ac pharetra tristi</p>
+			</section>
+			
+		</main>
+			<footer>
+			<h5>ELABORADO POR YURIAN H. GONZALEZ</h5>
+			</footer>
+		</body>
+	</html>

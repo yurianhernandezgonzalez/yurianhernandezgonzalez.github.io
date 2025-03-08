@@ -1,0 +1,274 @@
+<html>
+    <head>
+        <title>Listas en HTML</title>
+        
+        <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+              
+        <style type="text/css">
+                @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bowlby+One&family=Candal&family=Capriola&family=Coiny&family=Days+One&family=Fugaz+One&family=Mooli&family=Oi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paytone+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Readex+Pro:wght@160..700&family=Shrikhand&display=swap');
+
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+             
+            header, nav, main, footer{
+                width: 100%;
+                padding: 30px;
+                background-color: #FFC100;
+                color: #FF8A08;
+                margin-left: auto;
+                margin-right: auto;
+            }
+             
+            header{
+                height: auto;
+                font-size: 40px;
+            }
+             
+            nav{
+                height: auto;
+                background-color: #FF8A08;
+                font-family: "Capriola", serif;
+            }
+           
+           nav ul{
+               text-align: center;
+           }
+           
+           nav ul li{
+                list-style-type: none;
+                width: auto;
+                height: auto;
+                background-color: yellowgreen;
+                margin-bottom: 10px;
+                display: inline-block;
+                padding: 20px;
+                border-radius: 20px;
+                margin-left: 10px;
+                margin-right:10px;
+             }
+            main{
+                width: auto;
+                background-color: yellowgreen;
+                text-align: center;
+                padding: 30px;
+            }
+                /*margin-left: auto;
+                margin-right: auto;*/
+             
+            section{
+                width: 40%;
+                height: 360px;
+                height: 620px;
+                background-color: #F8ED8C;
+                margin: 25px;
+                margin-bottom: 20px;
+                margin-right: 20px;
+                margin-left: 20px;
+                padding: 30px;
+                display: inline-block;
+                overflow-y:  auto;
+                font-family: "Capriola",serif
+            }
+             
+            p, ul ,li{
+                 text-align: justify;
+                }
+            
+            header, footer{
+                color: aliceblue;
+            }
+        
+            header h1, footer h5{
+                text-align: center;
+            }
+            h1,h2,h3,h4,h5,h6{
+                margin-bottom: 20px;
+                font-family: "Bowlby One", serif;
+            }   
+             
+            ul li{
+                list-style-type: square;        
+            }
+             
+            ol li ul li {
+                list-style-type: circle;
+            }
+             
+            ol li{
+                list-style-type: upper-roman;
+            }
+            a{
+               text-decoration: none;  
+            }
+             
+            p{
+                color: #FF8A08;
+            }
+            
+            nav ul li a:link, nav ul li a:visited{
+                color: #F8ED8C;
+                text-decoration: none;
+            }
+            
+            nav ul li:hover{
+                background-color:#F8ED8C;
+            }
+            
+            nav ul li a:hover{
+                color: maroon;
+            }
+             
+            #box_lista mixta{
+                    height: 1100px;
+                }
+        </style>
+    </head>
+    
+       <body>
+        <header>
+            <h1 class="animate__animated animate__bounceinleft animate__delay-2s">Listas en HTML</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html"></a>Index</li>
+                <li><a href="formatos%20.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audios</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+    
+        <main>
+            <section>
+                <h2 class="animate__animated animate__rubberBand animate__delay-2s animate__slower">Listas Desordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus elit, aliquet non dapibus in, finibus blandit leo. Nam aliquam, purus et accumsan cursus, neque orci hendrerit tellus, et sodales felis nisl et diam. Ut tincidunt cursus sem, non consequat neque faucibus ut. Etiam sollicitudin erat vel arcu blandit, id ultricies mi dignissim. Sed mollis varius ante, vel volutpat nibh pulvinar sed. Vestibulum eu tortor dui. Duis fringilla imperdiet magna a aliquam. Phasellus tortor augue, vehicula vel scelerisque vitae, mattis mattis lacus. Aenean et quam pellentesque, rhoncus arcu nec, ultrices ligula. Aenean venenatis scelerisque tellus, in consequat sem ullamcorper vel.</p>
+                
+                <ul>
+                    <li>Argentina</li>
+                    <li>Bolivia</li>
+                    <li>Colombia</li>
+                    <li>Dinamarca</li>
+                    <li>España</li>
+                    <li>Fracia</li>
+                    <li>Guatemala</li>
+                    <li>México</li>
+                    <li>Nigeria</li>
+                    <li>Puerto Rico</li>
+                    <li>Rusia</li>
+                    <li>Sudafrica</li>
+                    <li>Turquia</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2 class="animate__animated animate__rubberBand animate__delay-3s animate__slower">Listas Ordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet turpis malesuada, egestas orci vel, mollis dui. Praesent ornare libero nisi, nec finibus orci hendrerit ut. Phasellus pharetra luctus eros in aliquam. Curabitur ut blandit elit. Morbi aliquet blandit luctus. Proin egestas tellus dignissim, faucibus erat in, dignissim lacus. Nunc feugiat ultrices nunc, id sodales erat egestas eget. Quisque vel aliquet odio. Aenean sit amet lectus erat. Duis facilisis est ac nibh mattis molestie. Vestibulum nec sem in augue molestie.</p>
+                
+                <ol>
+                    <li>Aguascalientes</li>
+                    <li>Baja California</li>
+                    <li>Colima</li>
+                    <li>Durango</li>
+                    <li>Estado de México</li>
+                    <li>Guanajuato</li>
+                    <li>Hidalgo</li>
+                    <li>Jalisco</li>
+                    <li>Morelos</li>
+                    <li>Oaxaca</li>
+                    <li>Puebla</li>
+                    <li>San Luis Potosi</li>
+                    <li>Quintana Roo</li>
+                </ol>
+            </section>
+            
+            <section id="box_listamixta">
+                <h2 class="animate__animated animate__rubberBand animate__delay-4s animate__slower">Lista Mixta</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit lobortis varius. Aenean imperdiet rhoncus metus a placerat. Nullam in quam nec elit pellentesque viverra a vitae ex. Sed et iaculis enim. Pellentesque non rhoncus urna, eget gravida massa. Fusce tempus nulla sem. Curabitur pellentesque quam at vulputate finibus. Aliquam erat volutpat. Quisque eleifend justo eu ipsum bibendum, ut convallis velit suscipit. Donec hendrerit ex metus, quis hendrerit velit dapibus et. Nulla facilisi. Sed interdum finibus nulla, at gravida purus mattis nec. Quisque ornare ornare tellus quis dictum. Vivamus posuere feugiat ex non facilisis. Sed pretium purus mauris, vitae auctor.</p>
+                <ol>
+                    <li style="list-style-type: lower-alpha">Queretaro
+                        <ul>
+                            <li>Pinal de Amoles</li>
+                            <li>Arroyo Seco</li>
+                            <li>Amealco</li>
+                            <li>Cadereyta de Montes</li>
+                            <li>Colón</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: lower-alpha">Sonora
+                        <ul>
+                            <li>Hermosillo</li>
+                            <li>Atil</li>
+                            <li>Villa Pesqueira</li>
+                            <li>Altar</li>
+                            <li>Navoja</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: lower-alpha">Veracruz
+                        <ul>
+                            <li>Xalapa</li>
+                            <li>Papantla</li>
+                            <li>Orizaba</li>
+                            <li>Poza Rica</li>
+                            <li>Las Choapas</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: lower-alpha">Puebla
+                        <ul>
+                            <li>Atlixco</li>
+                            <li>Cholula</li>
+                            <li>Acajete</li>
+                            <li>Zacatlán</li>
+                            <li>Acatzingo</li>
+                            <li>Amozoc</li>
+                            <li>Calpa</li>
+                            <li>Izucar de Matamoros</li>
+                            <li>Huejotzingo</li>
+                            <li>Chignahuapan</li>
+                            <li>Tehuiltzingo</li>
+                        </ul>
+                    <li style="list-style-type: lower-alpha">Zacatecas
+                        <ul>
+                            <li>Fresnillo</li>
+                            <li>Sombrerete</li>
+                            <li>Villanueva</li>
+                            <li>Río Grande</li>
+                            <li>Jalpa</li>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: lower-alpha">Chihuahua
+                        <ul>
+                            <li>Juárez</li>
+                            <li>Parral</li>
+                            <li>Hermosillo</li>
+                            <li>Delicias</li>
+                            <li>Pedro Meoqui</li>
+                        </ul>
+                    </li>   
+                    <li style="list-style-type: lower-alpha">Nuevo Leon
+                        <ul>
+                            <li>Galeana</li>
+                            <li>Monterrey</li>
+                            <li>Doctor Coss</li>
+                            <li>Salinas Victoria</li>
+                            <li>Montemorelos</li>
+                        </ul>      
+                    </li>
+                </ol>
+            </section>
+        </main>
+    
+        <footer>
+            <h5>ELABORADO POR YURIAN H. GONZALEZ</h5>
+        </footer>
+    </body>  
+</html>

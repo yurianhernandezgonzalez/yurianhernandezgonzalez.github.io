@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>IMAGENES EN HTML</title>
+        
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        <style>
+            section{
+                text-align: center;
+            }
+            
+            img{
+                width: 30%;
+                min-width: 200px;
+                display: inline-block; 
+                margin-left: 20px;
+                margin-right: 20px; 
+            }
+            
+            p, h2{
+                text-align: justify;
+            }
+            #img_gray{
+                filter: grayscale(100%);
+            }
+            #img_brillo{
+                filter: brightness(150%);
+            }
+            #img_contraste{
+                filter: contrast(120%);
+            }
+            #img_invertido{
+                filter: invert(100%);
+            }
+            #img_opacidad{
+                filter: opacity(50%);
+            }
+            #img_saturate{
+                filter: saturate(180%);
+            }
+            #img_sepia{
+                filter: sepia(100%);
+            }
+            #img_blur{
+                filter: blur(5px);
+            }
+            #img_huerotate{
+                filter: hue-rotate(80deg);
+            }
+            #img_shadow{
+                filter: drop-shadow(5px 10px 30px red);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1 class="animate__animated animate__lightspeedinright">Imagenes en HTML</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="formatos%20.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audios</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <section>
+                <h2>Imagen</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacinia ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec massa metus, varius sit amet pulvinar a, tincidunt imperdiet massa. Maecenas commodo elit ut nunc tempus, quis pulvinar dolor laoreet. Pellentesque eget aliquam dui. Nulla in cursus erat. Vivamus fermentum ut nunc quis vulputate. Nullam.</p>
+                <img class="animate__animated animate__animated shakeX animate__delay-3s animate__repeat-3"
+                src="../imagenes/san%20valentines.jpg" width="100px" alt="Fotografía de letras y corazones por San Valentines Day">
+            </section>
+            
+            <section>
+                <h2>Imagen Animada</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacinia ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec massa metus, varius sit amet pulvinar a, tincidunt imperdiet massa. Maecenas commodo elit ut nunc tempus, quis pulvinar dolor laoreet. Pellentesque eget aliquam dui. Nulla in cursus erat. Vivamus fermentum ut nunc quis vulputate. Nullam.</p>
+                <img id="imagen_animada" src="../imagenes/beyonce.gif" alt="¡Beyonce luciendo un gran look para su enamorado!">
+            </section>
+            
+            <section>
+                <h2>Imagen como Boton</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacinia ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec massa metus, varius sit amet pulvinar a, tincidunt imperdiet massa. Maecenas commodo elit ut nunc tempus, quis pulvinar dolor laoreet.Pellentesque eget aliquam dui. <a href="https://www.gob.mx/turissste/articulos/enamorate-conoce-y-disfruta?idiom=es"><img class="animate__animated animated__hearBeat animate__delay-5s animate__infinite" id="imagen_ico" src="../imagenes/dos%20corazonez.png" alt="Corazon"></a> 
+                </p>
+            </section>
+            
+            <section>
+                <h2>Imagen Flotante</h2>
+                <p><img class="img_flotantes" id="left" src="../imagenes/grupo%20de%20amigos.jpg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacinia ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec massa metus, varius sit amet pulvinar a, tincidunt imperdiet massa. Maecenas commodo elit ut nunc tempus, quis pulvinar dolor laoreet. Pellentesque eget aliquam dui. Nulla in cursus erat. Vivamus fermentum ut nunc quis vulputate. Nullam.</p>
+                <p><img class="img_flotantes" id="right" src="../imagenes/coarazon%20horizontal.jpg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacinia ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec massa metus, varius sit amet pulvinar a, tincidunt imperdiet massa. Maecenas commodo elit ut nunc tempus, quis pulvinar dolor laoreet. Pellentesque eget aliquam dui. Nulla in cursus erat. Vivamus fermentum ut nunc quis vulputate. Nullam. </p>
+            </section>
+            
+            <section id="fondo_imagen">
+                <h2 style="color: crimson; font-size: 45px; font-weight: bold;">Imagen como Fondo/Baground</h2>
+                <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacinia ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec massa metus, varius sit amet pulvinar a, tincidunt imperdiet massa. Maecenas commodo elit ut nunc tempus, quis pulvinar dolor laoreet. Pellentesque eget aliquam dui. Nulla in cursus erat. Vivamus fermentum ut nunc quis vulputate. Nullam</p>
+                <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacin vulputate. Nullam Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit m dui. Nulla in cursus erat. Vivamus fermentum ut nunc qui</p>
+                <p class= "parrafo_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aNulla</p>
+                <p class="parrafo_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam.s vulputate. Nullam</p>
+            </section>
+            
+            <section>
+                <h2>Imagenes con Filtro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac turpis eu elit tristique efficitur at eget quam. Nullam pulvinar, est sit amet sagittis suscipit, neque nisl molestie nibh, ut aliquam eros eros quis est. Curabitur ut purus et neque aliquam mollis. Nam tristique lacus nisi, a hendrerit erat lacinia ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec massa metus, varius sit amet pulvinar a, tincidunt imperdiet massa. Maecenas commodo elit ut nunc tempus, quis pulvinar dolor laoreet. Pellentesque eget aliquam dui. Nulla in cursus erat. Vivamus fermentum ut nunc quis vulputate. Nullam</p>
+                
+                <img src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_gray" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_brillo" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_contraste" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_invertido" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_opacidad" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_saturate" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_sepia" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_blur" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_huerotate" src="../imagenes/chica%20uniforme.jpg">
+                <img id="img_shadow" src="../imagenes/chica%20uniforme.jpg">
+                <img src="../imagenes/chica%20uniforme.jpg">
+
+            </section>
+        </main>
+        <footer>
+            <h6>ELABORADO POR YURIAN H. GONZALEZ.</h6>
+        </footer>
+    </body>
+</html>
